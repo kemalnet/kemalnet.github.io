@@ -1,1 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/typed.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
+
+    <title>iOS Mobile Developer</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Kemal K.</span>
+          <!-- <span class="heading-primary--sub">Who we are:</span> -->
+          <p>I'm iOS &nbsp;(<span id="typed"></span>)&nbsp; Developer</p>
+        </h1>
+
+        <a href="#section-projects" class="btn btn--white btn--animated"
+          >Discover my Projects</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-features">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <!-- <i class="feature-box__icon icon-basic-world"></i> -->
+              <h3 class="heading-tertiary u-margin-bottom-small">About me</h3>
+              <p class="feature-box__text">
+                A Developer with 3+ years experience in mobile development
+                (iOS/Swift, React Native, Android), and 2 years in SwiftUI,
+                UIKit.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <!-- <i class="feature-box__icon icon-basic-compass"></i> -->
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Frameworks/Libraries
+              </h3>
+              <p class="feature-box__text">
+                SwiftUI, UIKit, MapKit, SpriteKit, Core Graphics, Core
+                Animation, Core Location, Core Data, Combine, RxSwift ...
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <!-- <i class="feature-box__icon icon-basic-map"></i> -->
+              <h3 class="heading-tertiary u-margin-bottom-small">Skills</h3>
+              <p class="feature-box__text">
+                Patterns: MVVM, MVP, MVC, VIPER. REST APIs handling, Firebase
+                Services, Dependency Injection. Core Data, Realm. Social logins.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <!-- <i class="feature-box__icon icon-basic-heart"></i> -->
+              <h3 class="heading-tertiary u-margin-bottom-small">Tools</h3>
+              <p class="feature-box__text">
+                Xcode, Android Studio, VS Code, Git, Sketch, Figma, Adobe XD,
+                Photoshop, Illustrator, After Effects, Premiere, Zeplin,
+                InVision...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tours" id="section-projects">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">My Projects - Demo</h2>
+          <p style="font-size: 1.5rem">
+            The source code of these projects are on my Github repositories.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-9-gif.gif"
+                      alt="Image1"
+                      class="card__details_img"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    CryptoCoin App
+                  </h3>
+                  <p>
+                    A cryptocurrency app that downloads live coins price data
+                    from an API and uses Core Data to save the user's portfolio.
+                    Used SwiftUI, MVVM, Core Data, Combine, API requests,
+                    Multi-threading, Searching, Filtering, Sorting data.
+                  </p>
+                  <div class="card__details_video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/KaMMrjUan00"
+                      title="CryptoCoin App"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-4-gif.gif"
+                      alt="Image1"
+                      class="card__details_img"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    Taxi App
+                  </h3>
+                  <p>
+                    This app shows distance between two locations and storing
+                    orders as a QR code in Firebase. Used SwiftUI, Firebase,
+                    Core Location, Mapkit.
+                  </p>
+                  <div class="card__details_video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/gl78oAslCj0"
+                      title="Taxi App"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-5-gif.gif"
+                      alt="Image1"
+                      class="card__details_img"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    E-Commerce App
+                  </h3>
+                  <p>
+                    App with Login form, product catalog, add/remove order from
+                    cart. Used Firebase, Auth, Combine, Matched Geometry Effect.
+                    SwiftUI.
+                  </p>
+                  <div class="card__details_video">
+                    <img
+                      src="img2/e5.png"
+                      alt="Image1"
+                      class="card__details_img2"
+                    />
+                    <!-- <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/CpirgOzyYVI"
+                      title=""
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-3-gif.gif"
+                      alt="Image1"
+                      class="card__details_img"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    Fitness app
+                  </h3>
+                  <p>
+                    Used SwiftUI, Combine and Firebase. User can create
+                    challenge, and increase exercise every day. Login/Dashboard.
+                  </p>
+                  <div class="card__details_video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/cqH_JEjlgKw"
+                      title="Fitness app"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-2-gif.gif"
+                      alt="Image1"
+                      class="card__details_img"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    Chat App
+                  </h3>
+                  <p>
+                    App with Firebase, Authentication, Google Auth, UIKit. User
+                    can send various types of messages (an image, location,
+                    text...).
+                  </p>
+                  <div class="card__details_video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/Q8p8VCnLrn0"
+                      title="Chat App"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-6-gif.gif"
+                      alt="Image1"
+                      class="card__details_img"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    Food Ordering App
+                  </h3>
+                  <p>
+                    Using Firebase and Core Location. Users can view product
+                    catalog, add/remove orders from cart page. SwiftUI.
+                  </p>
+                  <div class="card__details_video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/TQuzG8wRT84"
+                      title="Food Ordering App"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-8-gif.gif"
+                      alt="Image1"
+                      class="card__details_img2"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    SpriteKit game
+                  </h3>
+                  <p>
+                    Used SKSpriteNode, BuildingNode class, for buildings sets up
+                    physics, draws the building graphic, and handles the
+                    building being hit by player-monkey bananas. Game is mixing
+                    of UIKit, SpriteKit, Core Graphics.
+                  </p>
+                  <div class="card__details_video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/CyddqZYiNw4"
+                      title="SpriteKit game"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__details">
+                  <div style="text-align: center">
+                    <img
+                      src="img2/e-7-gif.gif"
+                      alt="Image1"
+                      class="card__details_img"
+                    />
+                  </div>
+
+                  <h3 class="heading-tertiary card__details_heading">
+                    Giphy app
+                  </h3>
+                  <p>
+                    Search and display gifs, used Giphy.com API requests. App
+                    based on MVVM pattern, UIKit.
+                  </p>
+                  <div class="card__details_video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/JNEcXWUkSPE"
+                      title="Giphy app"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#popup" class="btn btn--green">Contact</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <!-- <div class="footer__logo-box"></div> -->
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#popup" class="footer__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            <a href="#" class="footer__link">Web development - 2022</a>
+            <!-- <a href="#" class="footer__link">Web Dev</a> -->
+            Copyright &copy; All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__right">
+          <a href="#section-projects" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">Contact</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">...</h3>
+          <p class="popup__text">
+            You can contact me on my Linkedin <a href="#">profile</a>
+          </p>
+          <a href="#" class="btn btn--green">Close</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
